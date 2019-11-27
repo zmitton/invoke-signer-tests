@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Backbone App</title>
+</head>
+<body>
+  <h1 id="invoke-signer Tool">Invoke Signer</h1>
+
+  <textarea id="a1" onkeyup="render()">invoke-signer://etc?rpc=</textarea>
+  <h3>Encoded String</h3>
+  <p id="e1"></p>
+
+  <h3>Decoded String</h3>
+  <p id="d1"></p>
+
+  <h3>Deep Link</h3>
+  <a id="l1">Invoke</a>
+
+  <h3>Simulated Deep Link</h3>
+  <button id="b1" >Invoke</button>
+  
+  <!-- <p><code>{"jsonrpc":"2.0","method":"eth_sign","params":["0x88d1a50000123456789012345678901234567890", "hello world"],"id":1}</code></p> -->
+</body>
+  <script src="bundle.js">
+
+  </script>
+</html>
