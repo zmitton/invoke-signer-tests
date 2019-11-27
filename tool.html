@@ -5,10 +5,10 @@
 <body>
   <h1 id="invoke-signer Tool">Invoke Signer</h1>
   <h3>Header</h3>
-  <p id="h1">invoke-signer://etc?rpc=</p>
+  <textarea id="a1">invoke-signer://etc?rpc=</textarea>
 
   <h3>Payload</h3>
-  <textarea id="a1" onkeyup="render()">invoke-signer://etc?rpc=</textarea>
+  <textarea id="a2" onkeyup="render()"></textarea>
   
   <h3>Encoded String</h3>
   <p id="e1"></p>
@@ -20,11 +20,9 @@
   <a id="l1">Invoke</a>
 
   <h3>Simulated Deep Link</h3>
-  <button id="b1" >Invoke</button>
+  <button id="b1" onclick="invoke()" >Invoke</button>
   
   <!-- <p><code>{"jsonrpc":"2.0","method":"eth_sign","params":["0x88d1a50000123456789012345678901234567890", "hello world"],"id":1}</code></p> -->
 </body>
-  <script src="./bundle.js"></script>
-
-  </script>
+  <script src="./bundle.js"></script></script>
 </html>
