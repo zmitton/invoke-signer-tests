@@ -21,3 +21,5 @@ window.invoke = () => {
   window.location = document.getElementById('e1').innerHTML
 }
 
+window.onload = window.render
+
