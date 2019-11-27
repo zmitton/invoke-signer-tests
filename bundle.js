@@ -18,8 +18,8 @@ window.render = () => {
 
 }
 window.invoke = () => {
-  render()
-  window.location = document.getElementById('e1').innerHTML
+  // window.render()
+  // window.location = document.getElementById('e1').innerHTML
 }
 
 
