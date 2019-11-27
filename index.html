@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Backbone App</title>
+  <script src="bundle.js"></script>
+  <script>
+    window.thing = "urlsafe";
+  </script>
+</head>
+<body>
+
+  <h1 id="invoke-signer">Invoke Signer</h1>
+  <h2 id="scheme">Scheme</h2>
+  <p>&quot;<code>invoke-siger://</code>&quot;</p>
+  <h2 id="domain">Domain</h2>
+  <p>&quot;<code>etc</code>&quot;</p>
+  <h2 id="querystring">QueryString</h2>
+  <p>&quot;<code>?rpc=</code>&quot;</p>
+  <h4 id="first-rpc-method-to-support-eth_sign-">First RPC method to support &quot;eth_sign&quot;</h4>
+  <pre><code>{<span class="hljs-attr">"jsonrpc"</span>:<span class="hljs-string">"2.0"</span>,<span class="hljs-attr">"method"</span>:<span class="hljs-string">"eth_sign"</span>,<span class="hljs-attr">"params"</span>:[<span class="hljs-string">"0x88d1a50000123456789012345678901234567890"</span>, <span class="hljs-string">"hello world"</span>],<span class="hljs-attr">"id"</span>:<span class="hljs-number">1</span>}
+  </code></pre><p>as urlsafe</p>
+  <pre><code><span class="xml"></span><span class="perl">%7B%22jsonrpc%22%3A%222.<span class="hljs-number">0</span>%22%2C%22method%22%3A%22eth_sign%22%2C%22params%22%3A%5B%220x88d1a50000123456789012345678901234567890%22%2C%20%220x1234%22%5D%2C%22id%22%3A1%7D</span><span class="xml"></span>
+  </code></pre>
+
+</body>
+</html>

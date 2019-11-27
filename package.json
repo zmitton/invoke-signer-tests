@@ -1,0 +1,23 @@
+{
+  "name": "invoke-signer-tests",
+  "version": "1.0.0",
+  "description": "## Scheme \"`invoke-siger://`\" ## Domain \"`etc`\" ## QueryString \"`?rpc=`\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmitton/invoke-signer-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmitton/invoke-signer-tests/issues"
+  },
+  "homepage": "https://github.com/zmitton/invoke-signer-tests#readme",
+  "dependencies": {
+    "urlsafe-base64": "^1.0.0"
+  },
+  "devDependencies": {}
+}
