@@ -17,7 +17,7 @@ window.render = () => {
 
 }
 window.invoke = () => {
-  // window.render()
-  // window.location = document.getElementById('e1').innerHTML
+  window.render()
+  window.location = document.getElementById('e1').innerHTML
 }
 
