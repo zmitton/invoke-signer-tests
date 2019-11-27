@@ -18,9 +18,6 @@ window.render = () => {
 }
 window.invoke = () => {
   render()
-  window.location = e1.innerHTML
+  window.location = document.getElementById('e1').innerHTML
 }
 
-window.onload(function(){
-  render()
-})

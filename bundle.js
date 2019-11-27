@@ -19,12 +19,9 @@ window.render = () => {
 }
 window.invoke = () => {
   render()
-  window.location = e1.innerHTML
+  window.location = document.getElementById('e1').innerHTML
 }
 
-window.onload(function(){
-  render()
-})
 
 },{"url-encode-decode":2}],2:[function(require,module,exports){
 function isStr (str) {
